@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUhammad Nur Huda Portfolio</title><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Arial', sans-serif;
+    }
+
+    body, html {
+        height: 100%;
+        background: #0d0d0d;
+        color: white;
+    }
+
+    #particles-js {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    /* Hero Section */
+    .hero-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 100px 50px;
+border-bottom: solid #0066ffff;
+    }
+
+    .hero-section .bio {
+        max-width: 600px;
+    }
+
+    .hero-section img {
+        border-radius: 50%;
+        width: 280px;
+        height: 280px;
+margin-left:40px;
+margin-right:40px;
+        object-fit: cover;
+    }
+
+    .bio h1 {
+        font-size: 48px;
+        margin-bottom: 10px;
+        color: #0066ffff;
+    }
+
+    .bio p {
+        font-size: 18px;
+        color: #ddd;
+    }
+
+    /* Media Query for Mobile Responsiveness */
+    @media (max-width: 768px) {
+        .hero-section {
+            flex-direction: column;
+            text-align: center;
+            padding: 50px 20px;
+	    border-bottom: solid #0066ffff;
+        }
+
+        .hero-section img {
+            width: 250px;
+            height: 250px;
+            margin-bottom: 40px;
+        }
+
+        .bio h1 {
+            font-size: 36px;
+        }
+
+        .bio p {
+            font-size: 16px;
+        }
+    }
+
+.social-links {
+margin-top: 30px;
+    
+}
+
+.social-links h2 {
+    font-size: 24px;
+    color: #00ff99;
+    margin-bottom: 20px;
+}
+
+.social-btn {
+width:150px;
+height: auto;
+margin-top: 20px;
+
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1a1a1a;
+    color: #00ff99;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.social-btn i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.social-btn:hover {
+    background-color: #00ff99;
+    color: #1a1a1a;
+}
+
+.instagram {
+    background-color: #833AB4; /* Instagram color */
+    color: white;
+}
+
+.instagram:hover {
+    background-color: white;
+    color: #833AB4;
+}
+
+.website {
+margin-left:20px;
+    background-color: #1a1a1a; /* Website default color */
+}
+
+.website:hover {
+    background-color: #00ff99;
+    color: #1a1a1a;
+}
+
+    /* Portfolio Section */
+    .portfolio-section {
+        padding: 50px 20px;
+    }
+
+    .portfolio-section h2 {
+        font-size: 36px;
+        margin-bottom: 30px;
+        color: #0066ffff;
+        text-align: center;
+    }
+.portfolio-cards a {
+    
+text-decoration: none;
+color: inherit; 
+display: block;
+transition: transform 0.3s ease-in-out;
+}
+    .portfolio-cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+    }
+
+    .card {
+        background: #1a1a1a;
+height:320px;
+        padding: 15px;
+        border-radius: 8px;
+        text-align: center;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+    .card img {
+
+height: 200px;
+        width: 100%;
+        border-radius: 4px;
+object-fit:cover;
+
+
+    }
+
+    .card h3 {
+        margin: 15px 0 10px;
+        color: #0066ffff;
+    }
+
+    .card p {
+        font-size: 14px;
+        color: #ccc;
+    }
+
+    /* Footer Section */
+    footer {
+        text-align: center;
+        padding: 20px;
+        background: #111;
+        color: #888;
+    }
+
+    footer p {
+        margin: 0;
+    }
+</style>
+</head>
+<body>
+
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+
+    <!-- Hero Section -->
+    <section class="hero-section container">
+        <div class="hero-image">
+            <img src="img-profile.png" alt="Profile Picture">
+        </div>
+        <div class="bio">
+            <h1>Muhammad Nur Huda</h1>
+            <p><h4>Hello! I'm a passionate graphic design and IT enthusiast</h4><br>
+
+With a strong interest in both creative design and technology, I love combining my skills in graphic design with the world of web development to create visually and functional websites. This site is a showcase of my journey,or my Fantasy Project, where I merge creativity and technical expertise to bring ideas to life.</p>
+
+    <a href="https://instagram.com/mnur.hud" target="_blank" class="social-btn instagram">
+        <i class="fab fa-instagram"></i> Instagram
+    </a>
+    <a href="https://sites.google.com/view/mnurhuda" target="_blank" class="social-btn website">
+        <i class="fas fa-globe"></i> Website
+    </a>
+
+
+        </div>
+
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio-section container">
+        <h2>My Works</h2>
+        <div class="portfolio-cards">
+            <a href="/succulections/index.html"><div class="card">
+
+                <img src="/succulections/preview.png" alt="Project 1">
+                <h3>Succulections</h3>
+                <p>Projek semu untuk submisi pelatihan Front-end Developer oleh Dicoding</p>
+            </div></a>
+
+<a href="#">
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>Release soon.</p>
+            </div>
+</a>
+
+<a href="succulections/index.html">
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>Release soon.</p>
+            </div>
+</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Muhammad Nur Huda. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Particle.js Library -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS("particles-js", {
+            "particles": {
+                "number": {
+                    "value": 80,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#00ff99"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    }
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": false,
+                    "anim": {
+                        "enable": false,
+                        "speed": 1,
+                        "opacity_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 3,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 40,
+                        "size_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#00ff99",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 6,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 400,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 400,
+                        "size": 40,
+                        "duration": 2,
+                        "opacity": 8,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 200,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+
+</body>
+</html>
